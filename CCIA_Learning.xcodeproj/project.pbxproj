@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F5FD2C327A10DE800CEF663 /* Accumulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FD2C227A10DE800CEF663 /* Accumulate.cpp */; };
+		3F5FD2C927A2926200CEF663 /* threadsafe_stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FD2C727A2926200CEF663 /* threadsafe_stack.cpp */; };
+		3F5FD2CB27A295AC00CEF663 /* parallel_accumulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FD2CA27A295AC00CEF663 /* parallel_accumulate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		3F5FD2B827A06C1F00CEF663 /* CCIA_Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CCIA_Learning; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5FD2C227A10DE800CEF663 /* Accumulate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Accumulate.cpp; sourceTree = "<group>"; };
+		3F5FD2C727A2926200CEF663 /* threadsafe_stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threadsafe_stack.cpp; sourceTree = "<group>"; };
+		3F5FD2C827A2926200CEF663 /* threadsafe_stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = threadsafe_stack.hpp; sourceTree = "<group>"; };
+		3F5FD2CA27A295AC00CEF663 /* parallel_accumulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parallel_accumulate.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		3F5FD2BA27A06C1F00CEF663 /* CCIA_Learning */ = {
 			isa = PBXGroup;
 			children = (
-				3F5FD2C227A10DE800CEF663 /* Accumulate.cpp */,
+				3F5FD2C727A2926200CEF663 /* threadsafe_stack.cpp */,
+				3F5FD2C827A2926200CEF663 /* threadsafe_stack.hpp */,
+				3F5FD2CA27A295AC00CEF663 /* parallel_accumulate.cpp */,
 			);
 			path = CCIA_Learning;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5FD2C327A10DE800CEF663 /* Accumulate.cpp in Sources */,
+				3F5FD2C927A2926200CEF663 /* threadsafe_stack.cpp in Sources */,
+				3F5FD2CB27A295AC00CEF663 /* parallel_accumulate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
