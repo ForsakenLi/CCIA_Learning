@@ -33,7 +33,7 @@ public:
 
 private:
     std::stack<T> data_;
-    
+    mutable std::mutex mu_; // 无论成员函数是否为const都可以修改
 };
 
 #endif /* threadsafe_stack_hpp */
