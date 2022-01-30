@@ -10,6 +10,7 @@
 		3F10FA3927A3040500B80961 /* parallel_merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F10FA3827A3040500B80961 /* parallel_merge_sort.cpp */; };
 		3F5FD2C927A2926200CEF663 /* threadsafe_stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FD2C727A2926200CEF663 /* threadsafe_stack.cpp */; };
 		3F5FD2CB27A295AC00CEF663 /* parallel_accumulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F5FD2CA27A295AC00CEF663 /* parallel_accumulate.cpp */; };
+		3F6BC44627A6F61A00FB0BBA /* threadsafe_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC44427A6F61A00FB0BBA /* threadsafe_queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		3F5FD2C727A2926200CEF663 /* threadsafe_stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threadsafe_stack.cpp; sourceTree = "<group>"; };
 		3F5FD2C827A2926200CEF663 /* threadsafe_stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = threadsafe_stack.hpp; sourceTree = "<group>"; };
 		3F5FD2CA27A295AC00CEF663 /* parallel_accumulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parallel_accumulate.cpp; sourceTree = "<group>"; };
+		3F6BC44427A6F61A00FB0BBA /* threadsafe_queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = threadsafe_queue.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3F5FD2C827A2926200CEF663 /* threadsafe_stack.hpp */,
 				3F5FD2CA27A295AC00CEF663 /* parallel_accumulate.cpp */,
 				3F10FA3827A3040500B80961 /* parallel_merge_sort.cpp */,
+				3F6BC44427A6F61A00FB0BBA /* threadsafe_queue.cpp */,
 			);
 			path = CCIA_Learning;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6BC44627A6F61A00FB0BBA /* threadsafe_queue.cpp in Sources */,
 				3F5FD2C927A2926200CEF663 /* threadsafe_stack.cpp in Sources */,
 				3F10FA3927A3040500B80961 /* parallel_merge_sort.cpp in Sources */,
 				3F5FD2CB27A295AC00CEF663 /* parallel_accumulate.cpp in Sources */,

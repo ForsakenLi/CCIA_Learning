@@ -8,8 +8,6 @@
 #include <iostream>
 #include <thread>
 #include <vector>
-#include <functional>
-
 using namespace std;
 
 void merge(vector<int>& nums, int s, int mid, int e){
@@ -61,12 +59,12 @@ vector<int> sortArray(vector<int>& nums) {
     return arr;
 }
 
-//int main(){
-//    vector<int> nums{10,9,8,7,2,3,4,5,6,1,0}, res;
-//    res = sortArray(nums);
-//    for(int num : res){
-//        cout << num << " ";
-//    }
-//    cout << endl;
-//    return 0;
-//}
+int main(){
+    vector<int> nums{10,9,8,7,2,3,4,5,6,1,0}, res;
+    res = sortArray(nums);
+    for(int num : res){
+        cout << num << " ";
+    }
+    cout << endl;
+    return 0;
+}

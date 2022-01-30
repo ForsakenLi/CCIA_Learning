@@ -52,3 +52,8 @@ T parallel_accumulate(Iterator first, Iterator last, T init) {
     return std::accumulate(results.begin(), results.end(), init);
 }
 
+//int main() {
+//    std::vector<int> v(100, 1);
+//    parallel_accumulate(v.begin(), v.end(), 0);
+//    return 0;
+//}
