@@ -30,7 +30,7 @@ public:
     void push(T new_value);
     std::shared_ptr<T> pop();
     void pop(T& value);
-
+    
 private:
     std::stack<T> data_;
     mutable std::mutex mu_; // 无论成员函数是否为const都可以修改

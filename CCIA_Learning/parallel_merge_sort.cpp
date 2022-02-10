@@ -19,7 +19,7 @@ void merge(vector<int>& nums, int s, int mid, int e){
             rnums.push_back(nums[i]);
         }
     }
-
+    
     int l = 0, r = 0, k = s;
     // 比较两个指针(l和r)所指向的元素，选择相对小的元素(升序)放入到合并空间，
     // 并移动指针到下一位置，直到其中一个指针超出序列尾
@@ -59,12 +59,12 @@ vector<int> sortArray(vector<int>& nums) {
     return arr;
 }
 
-int main(){
-    vector<int> nums{10,9,8,7,2,3,4,5,6,1,0}, res;
-    res = sortArray(nums);
-    for(int num : res){
-        cout << num << " ";
-    }
-    cout << endl;
-    return 0;
-}
+//int main(){
+//    vector<int> nums{10,9,8,7,2,3,4,5,6,1,0}, res;
+//    res = sortArray(nums);
+//    for(int num : res){
+//        cout << num << " ";
+//    }
+//    cout << endl;
+//    return 0;
+//}
